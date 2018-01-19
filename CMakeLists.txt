@@ -1,3 +1,4 @@
+
 file(GLOB RECIPES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} recipes/*)
 
 macro(get_directory_base OUTPUT_VAR DIR)
@@ -18,3 +19,4 @@ endforeach()
 install(DIRECTORY cmake DESTINATION share/)
 
 enable_testing()
+
