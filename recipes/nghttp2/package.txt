@@ -1,0 +1,1 @@
+nghttp2@v1.29.0 -DENABLE_LIB_ONLY=On
